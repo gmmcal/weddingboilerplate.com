@@ -35,6 +35,16 @@
 
 return array(
 
-	'docs' => array('handles' => 'docs'),
+	'thumbnailable' => array( 'auto' => true ),
+  'bob',
+  'scaffold',
+  'precedent' => array(
+    'autoloads' => array(
+      'map' => array(
+        'Has_Many_And_Belongs_To' => '(:bundle)/has_many_and_belongs_to.php',
+        'Precedent'               => '(:bundle)/model.php'
+      ),
+    )
+  ),
 
 );
